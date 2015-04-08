@@ -1,0 +1,19 @@
+{
+    "config": {
+        "vendor-dir": "./server/vendor"
+    },
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "files": [
+            "./server/bootstrap.php" 
+        ],
+        "classmap": [
+            "./server/config",
+            "./server/models",
+            "./server/routes"
+        ]
+    }
+}
